@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@netlify/sdk':
     specifier: ^5.0.0
-    version: 5.0.0(@trpc/server@11.7.2)(@types/react@19.2.7)(autoprefixer@10.4.22)(postcss@8.5.6)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.18)
+    version: 5.0.0(@trpc/server@11.8.0)(@types/react@19.2.7)(autoprefixer@10.4.23)(postcss@8.5.6)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.19)
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -583,18 +583,18 @@ packages:
       zod: 3.25.76
     dev: false
 
-  /@netlify/sdk--ui-functions@2.0.0(@trpc/server@11.7.2):
+  /@netlify/sdk--ui-functions@2.0.0(@trpc/server@11.8.0):
     resolution: {integrity: sha512-X4litz9atK3KgWoBtaINL/1YL4hw22lNz52ETCZsM//uHEsWfG2h5ngrq3SUGdfTOVDYKvnUGDL4gf6oZqZwIA==}
     peerDependencies:
       '@trpc/server': '>= 11 || >= 11.0.0-rc.0'
     dependencies:
       '@netlify/sdk--extension-api-client': 3.0.0
       '@netlify/types': 2.0.3
-      '@trpc/server': 11.7.2(typescript@5.2.2)
+      '@trpc/server': 11.8.0(typescript@5.2.2)
       zod: 3.25.76
     dev: false
 
-  /@netlify/sdk--ui-react@2.0.0(@types/react@19.2.7)(autoprefixer@10.4.22)(postcss@8.5.6)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.18):
+  /@netlify/sdk--ui-react@2.0.0(@types/react@19.2.7)(autoprefixer@10.4.23)(postcss@8.5.6)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.19):
     resolution: {integrity: sha512-UCxpnrSh6WmTE3Pj3uci1ZiUOk4ajGtN1u1s9Bsxn8zE3gkPQoUtZojaO7t3UtGFGwvJgT7KujZK462Ul9m9Xw==}
     peerDependencies:
       autoprefixer: ^10.4.19
@@ -610,7 +610,7 @@ packages:
       '@netlify/tailwind-config': 2.1.0
       '@netlify/ui': 0.0.23(react-dom@18.3.1)(react@18.3.1)
       '@react-hook/resize-observer': 2.0.2(react@18.3.1)
-      autoprefixer: 10.4.22(postcss@8.5.6)
+      autoprefixer: 10.4.23(postcss@8.5.6)
       escape-string-regexp: 5.0.0
       hast-util-to-jsx-runtime: 2.3.6
       history: 5.3.0
@@ -620,7 +620,7 @@ packages:
       react-hook-form: 7.64.0(react@18.3.1)
       react-select: 5.10.2(@types/react@19.2.7)(react-dom@18.3.1)(react@18.3.1)
       shiki: 1.29.2
-      tailwindcss: 3.4.18
+      tailwindcss: 3.4.19
       zod: 3.25.76
     transitivePeerDependencies:
       - '@types/react'
@@ -629,7 +629,7 @@ packages:
       - yaml
     dev: false
 
-  /@netlify/sdk@5.0.0(@trpc/server@11.7.2)(@types/react@19.2.7)(autoprefixer@10.4.22)(postcss@8.5.6)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.18):
+  /@netlify/sdk@5.0.0(@trpc/server@11.8.0)(@types/react@19.2.7)(autoprefixer@10.4.23)(postcss@8.5.6)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.19):
     resolution: {integrity: sha512-m7TDPXvnydTbR0RIMETNJitlehzV3WNa/5hIK6eFRzF9zxPsQx4OQZ4C7fZUTct5uk77n7CxNJNkVKDN8Z/goQ==}
     engines: {node: '>= 18.19.0'}
     hasBin: true
@@ -637,8 +637,8 @@ packages:
       '@commander-js/extra-typings': 12.1.0(commander@12.1.0)
       '@netlify/sdk--extension-api-client': 3.0.0
       '@netlify/sdk--ui-core': 2.0.0
-      '@netlify/sdk--ui-functions': 2.0.0(@trpc/server@11.7.2)
-      '@netlify/sdk--ui-react': 2.0.0(@types/react@19.2.7)(autoprefixer@10.4.22)(postcss@8.5.6)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.18)
+      '@netlify/sdk--ui-functions': 2.0.0(@trpc/server@11.8.0)
+      '@netlify/sdk--ui-react': 2.0.0(@types/react@19.2.7)(autoprefixer@10.4.23)(postcss@8.5.6)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.4.19)
       '@netlify/types': 2.0.3
       chalk: 5.6.2
       commander: 12.1.0
@@ -840,8 +840,8 @@ packages:
       tippy.js: 6.3.7
     dev: false
 
-  /@trpc/server@11.7.2(typescript@5.2.2):
-    resolution: {integrity: sha512-AgB26PXY69sckherIhCacKLY49rxE2XP5h38vr/KMZTbLCL1p8IuIoKPjALTcugC2kbyQ7Lbqo2JDVfRSmPmfQ==}
+  /@trpc/server@11.8.0(typescript@5.2.2):
+    resolution: {integrity: sha512-DphyQnLuyX2nwJCQGWQ9zYz4hZGvRhSBqDhQ0SH3tDhQ3PU4u68xofA0pJ741Ir4InEAFD+TtJVLAQy+wVOkiQ==}
     peerDependencies:
       typescript: '>=5.7.2'
     dependencies:
@@ -1002,17 +1002,16 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /autoprefixer@10.4.22(postcss@8.5.6):
-    resolution: {integrity: sha512-ARe0v/t9gO28Bznv6GgqARmVqcWOV3mfgUPn9becPHMiD3o9BwlRgaeccZnwTpZ7Zwqrm+c1sUSsMxIzQzc8Xg==}
+  /autoprefixer@10.4.23(postcss@8.5.6):
+    resolution: {integrity: sha512-YYTXSFulfwytnjAPlw8QHncHJmlvFKtczb8InXaAx9Q0LbfDnfEYDE55omerIJKihhmU61Ft+cAOSzQVaBUmeA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.28.0
-      caniuse-lite: 1.0.30001757
+      browserslist: 4.28.1
+      caniuse-lite: 1.0.30001760
       fraction.js: 5.3.4
-      normalize-range: 0.1.2
       picocolors: 1.1.1
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -1031,8 +1030,8 @@ packages:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
     dev: false
 
-  /baseline-browser-mapping@2.8.32:
-    resolution: {integrity: sha512-OPz5aBThlyLFgxyhdwf/s2+8ab3OvT7AdTNvKHBwpXomIYeXqpUUuT8LrdtxZSsWJ4R4CU1un4XGh5Ez3nlTpw==}
+  /baseline-browser-mapping@2.9.8:
+    resolution: {integrity: sha512-Y1fOuNDowLfgKOypdc9SPABfoWXuZHBOyCS4cD52IeZBhr4Md6CLLs6atcxVrzRmQ06E7hSlm5bHHApPKR/byA==}
     hasBin: true
     dev: false
 
@@ -1066,16 +1065,16 @@ packages:
       fill-range: 7.1.1
     dev: false
 
-  /browserslist@4.28.0:
-    resolution: {integrity: sha512-tbydkR/CxfMwelN0vwdP/pLkDwyAASZ+VfWm4EOwlB6SWhx1sYnWLqo8N5j0rAzPfzfRaxt0mM/4wPU/Su84RQ==}
+  /browserslist@4.28.1:
+    resolution: {integrity: sha512-ZC5Bd0LgJXgwGqUknZY/vkUQ04r8NXnJZ3yYi4vDmSiZmC/pdSN0NbNRPxZpbtO4uAfDUAFffO8IZoM3Gj8IkA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      baseline-browser-mapping: 2.8.32
-      caniuse-lite: 1.0.30001757
-      electron-to-chromium: 1.5.262
+      baseline-browser-mapping: 2.9.8
+      caniuse-lite: 1.0.30001760
+      electron-to-chromium: 1.5.267
       node-releases: 2.0.27
-      update-browserslist-db: 1.1.4(browserslist@4.28.0)
+      update-browserslist-db: 1.2.3(browserslist@4.28.1)
     dev: false
 
   /bundle-name@3.0.0:
@@ -1104,8 +1103,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: false
 
-  /caniuse-lite@1.0.30001757:
-    resolution: {integrity: sha512-r0nnL/I28Zi/yjk1el6ilj27tKcdjLsNqAOZr0yVjWPrSQyHgKI2INaEWw21bAQSv2LXRt1XuCS/GomNpWOxsQ==}
+  /caniuse-lite@1.0.30001760:
+    resolution: {integrity: sha512-7AAMPcueWELt1p3mi13HR/LHH0TJLT11cnwDJEs3xA4+CK/PLKeO9Kl1oru24htkyUKtkGCvAx4ohB0Ttry8Dw==}
     dev: false
 
   /ccount@2.0.1:
@@ -1343,8 +1342,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.5.262:
-    resolution: {integrity: sha512-NlAsMteRHek05jRUxUR0a5jpjYq9ykk6+kO0yRaMi5moe7u0fVIOeQ3Y30A8dIiWFBNUoQGi1ljb1i5VtS9WQQ==}
+  /electron-to-chromium@1.5.267:
+    resolution: {integrity: sha512-0Drusm6MVRXSOJpGbaSVgcQsuB4hEkMpHXaVstcPmhu5LIedxs1xNK/nIxmQIU/RPC0+1/o0AVZfBTkTNJOdUw==}
     dev: false
 
   /emoji-regex-xs@1.0.0:
@@ -1511,6 +1510,18 @@ packages:
     resolution: {integrity: sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==}
     dependencies:
       reusify: 1.1.0
+    dev: false
+
+  /fdir@6.5.0(picomatch@4.0.3):
+    resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      picomatch: ^3 || ^4
+    peerDependenciesMeta:
+      picomatch:
+        optional: true
+    dependencies:
+      picomatch: 4.0.3
     dev: false
 
   /figures@6.1.0:
@@ -2327,11 +2338,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /normalize-range@0.1.2:
-    resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
-    engines: {node: '>=0.10.0'}
-    dev: false
-
   /npm-run-path@4.0.1:
     resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==}
     engines: {node: '>=8'}
@@ -2487,6 +2493,11 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+    dev: false
+
+  /picomatch@4.0.3:
+    resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
+    engines: {node: '>=12'}
     dev: false
 
   /pify@2.3.0:
@@ -2732,6 +2743,16 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: false
 
+  /resolve@1.22.11:
+    resolution: {integrity: sha512-RfqAvLnMl313r7c9oclB1HhUEAezcpLjz95wFH4LVuhk9JF/r22qmVP9AMmOU4vMX7Q8pN8jwNg/CSpdFnMjTQ==}
+    engines: {node: '>= 0.4'}
+    hasBin: true
+    dependencies:
+      is-core-module: 2.16.1
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+    dev: false
+
   /reusify@1.1.0:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
@@ -2933,6 +2954,20 @@ packages:
       ts-interface-checker: 0.1.13
     dev: false
 
+  /sucrase@3.35.1:
+    resolution: {integrity: sha512-DhuTmvZWux4H1UOnWMB3sk0sbaCVOoQZjv8u1rDoTV0HTdGem9hkAZtl4JZy8P2z4Bg0nT+YMeOFyVr4zcG5Tw==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    hasBin: true
+    dependencies:
+      '@jridgewell/gen-mapping': 0.3.13
+      commander: 4.1.1
+      lines-and-columns: 1.2.4
+      mz: 2.7.0
+      pirates: 4.0.7
+      tinyglobby: 0.2.15
+      ts-interface-checker: 0.1.13
+    dev: false
+
   /supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
@@ -2977,6 +3012,38 @@ packages:
       - yaml
     dev: false
 
+  /tailwindcss@3.4.19:
+    resolution: {integrity: sha512-3ofp+LL8E+pK/JuPLPggVAIaEuhvIz4qNcf3nA1Xn2o/7fb7s/TYpHhwGDv1ZU3PkBluUVaF8PyCHcm48cKLWQ==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      '@alloc/quick-lru': 5.2.0
+      arg: 5.0.2
+      chokidar: 3.6.0
+      didyoumean: 1.2.2
+      dlv: 1.1.3
+      fast-glob: 3.3.3
+      glob-parent: 6.0.2
+      is-glob: 4.0.3
+      jiti: 1.21.7
+      lilconfig: 3.1.3
+      micromatch: 4.0.8
+      normalize-path: 3.0.0
+      object-hash: 3.0.0
+      picocolors: 1.1.1
+      postcss: 8.5.6
+      postcss-import: 15.1.0(postcss@8.5.6)
+      postcss-js: 4.1.0(postcss@8.5.6)
+      postcss-load-config: 6.0.1(jiti@1.21.7)(postcss@8.5.6)
+      postcss-nested: 6.2.0(postcss@8.5.6)
+      postcss-selector-parser: 6.1.2
+      resolve: 1.22.11
+      sucrase: 3.35.1
+    transitivePeerDependencies:
+      - tsx
+      - yaml
+    dev: false
+
   /thenify-all@1.6.0:
     resolution: {integrity: sha512-RNxQH/qI8/t3thXJDwcstUO4zeqo64+Uy/+sNVRBx4Xn2OX+OZ9oP+iJnNFqplFra2ZUVeKCSa2oVWi3T4uVmA==}
     engines: {node: '>=0.8'}
@@ -2996,6 +3063,14 @@ packages:
 
   /tiny-warning@1.0.3:
     resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
+    dev: false
+
+  /tinyglobby@0.2.15:
+    resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      fdir: 6.5.0(picomatch@4.0.3)
+      picomatch: 4.0.3
     dev: false
 
   /tippy.js@6.3.7:
@@ -3098,13 +3173,13 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /update-browserslist-db@1.1.4(browserslist@4.28.0):
-    resolution: {integrity: sha512-q0SPT4xyU84saUX+tomz1WLkxUbuaJnR1xWt17M7fJtEJigJeWUNGUqrauFXsHnqev9y9JTRGwk13tFBuKby4A==}
+  /update-browserslist-db@1.2.3(browserslist@4.28.1):
+    resolution: {integrity: sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.28.0
+      browserslist: 4.28.1
       escalade: 3.2.0
       picocolors: 1.1.1
     dev: false
